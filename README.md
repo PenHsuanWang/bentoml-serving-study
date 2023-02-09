@@ -1,8 +1,3 @@
----
-title: Deep dive of BentoML Serving and Performance 
-tags: MLOps
----
-
 ## Adapting Batching
 
 The Bentoml servering using multiprocess to deal with API logic processes. The proven of programe process can be check from [ref]().
