@@ -1,7 +1,23 @@
----
-title: Deep dive of BentoML Serving and Performance 
-tags: MLOps
----
+# Bentoml Model Serving for MLOps solution.
+
+The following study note is releated with MLOps solution.
+The Bentoml is an open-source project for MLOps. Check out the official webpage and github.
+
+:point_right: https://docs.bentoml.org/en/latest/
+:point_right: https://github.com
+
+Here is starting from the point to serving model.
+To do serving mechnism testing and deploy by Yatai(やたい) to K8S.
+Before you go through this note, pre-reqiure knowledge about Bento and Model build can take following materials and reference.
+
+:bulb: **preparing ML model:** https://docs.bentoml.org/en/latest/concepts/model.html
+
+:bulb: **bentoml model serving:** https://docs.bentoml.org/en/latest/concepts/service.html
+
+:bulb: **bemtoml runner:** https://docs.bentoml.org/en/latest/concepts/runner.html
+
+:bulb: **over view picture of MLOps solution with BentoML:**
+https://towardsdatascience.com/10-ways-bentoml-can-help-you-serve-and-scale-machine-learning-models-4060f1e59d0d
 
 ## Adapting Batching
 
